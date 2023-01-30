@@ -1,0 +1,43 @@
+@import url('https:fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about_img {
+    min-width: 100%;
+    max-height: 280px;
+}
+
+.about_p {
+    text-align: justify;
+}
+
+.card img {
+    height: 300px;
+}
+
+.offer_section {
+    background-color: #a6dcef;
+    color: white;
+}
+
+
+/* Responsive CSS */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carousel-item img {
+        height: 90vh;
+    }
+}
